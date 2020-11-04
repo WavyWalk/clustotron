@@ -1,11 +1,12 @@
 modified rendertron fork
 
 what's changed:
-added puppeteer cluster
-render task changed/refactored accordingly
-container with chromium
-assets are not stripped
-screenshot functionality removed
+
+* added puppeteer cluster
+* render task changed/refactored accordingly
+* container with chromium
+* assets are not stripped
+* screenshot functionality removed
 
 to run locally:
 
