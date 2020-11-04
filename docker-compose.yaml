@@ -1,0 +1,16 @@
+version: '3'
+services:
+
+  prerender:
+    image: alpine:edge
+    build:
+      dockerfile: docker/Dockerfile
+      context: .
+    environment:
+      - PORT=3500
+    working_dir: /app
+    volumes:
+      - .:/app
+    command: npm run monitor
+    ports:
+      - 3500:3500
